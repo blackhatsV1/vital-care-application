@@ -168,6 +168,10 @@ ALTER TABLE `appointment`
 ALTER TABLE `doctorschedule`
   MODIFY `scheduleId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
+
+ALTER TABLE patient
+ADD COLUMN profileImage LONGBLOB;
+
 --
 -- Constraints for dumped tables
 --
